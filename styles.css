@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --grey: rgb(74, 85, 104);
+}
+
+body {
+  height: 100vh;
+  font-family: "Open Sans", serif;
+}
+
+.btn-primary {
+  background-color: rgb(102, 126, 234);
+  color: white;
+}
+
+.text-primary,
+.btn-light,
+.btn-light:hover {
+  color: rgb(102, 126, 234) !important;
+}
