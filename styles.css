@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.btn-primary {
+  background-color: rgb(102, 126, 234);
+  color: white;
+}
+
+.text-primary,
+.btn-light,
+.btn-light:hover {
+  color: rgb(102, 126, 234) !important;
+}
+
+.desc {
+  margin-inline-start: 3rem;
+}
+
+.desc p,
+.desc li {
+  line-height: 28px;
+}
+
+.desc li {
+  margin-block-start: 1rem;
+}
+
+@media (max-width: 768px) {
+  .desc:first-of-type {
+    margin-block-start: 3rem;
+  }
+
+  .desc p,
+  .desc li {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 576px) {
+  .desc {
+    margin-inline-start: 0;
+  }
+}
