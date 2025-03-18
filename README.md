@@ -1,4 +1,4 @@
-# A simple rock, paper, scissors game developed using Vanilla JS and Bootstrap 5 for a lecture project.
+# A simple rock, paper, scissors game
 
 This project is a simple web game I developed for a course assignment. This game is an implementation of the knowledge I gained during the course.
 
